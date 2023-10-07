@@ -1,0 +1,21 @@
+.optionsList {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.optBtn {
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: solid 1px darkgray;
+    cursor: pointer;
+}
+
+.optBtn:hover,
+.optBtn:focus {
+    background-color: lightskyblue
+}
